@@ -20,7 +20,7 @@ For detailed walkthrough, please view the source code in order from:
 ## Problem Definition
 
 ### Background
-Steam is platform for developers and users to share and play games, however, over the years, the number of games available on the platform has grown drastically.
+Steam is platform for developers and users to share, download and play games, however, over the years, the number of games available on the platform has grown drastically.
 
 The extensive and growing library of games on Steam makes it difficult for users to discover similar games to the ones they play.
 
