@@ -46,7 +46,6 @@ This is to enhance user experience, help users discover games they might otherwi
 - Clean text data (e.g., converting to lowercase, removing punctuation and special characters)
 
 ## EDA & Data Visualization
-- Understand distribution of individual features
 - Check for skew in numerical columns
 - Fix skews using log transformation 
 - Understand distribution of categorical features 
@@ -62,6 +61,7 @@ This is to enhance user experience, help users discover games they might otherwi
 - Many games made by indie devs and with low player count
 - Metadata like Peak CCU and total reviews were heavily skewed, too many games with no players and reviews
 - Common tags (Like Indie, Singleplayer, adventure,..) were everywhere, so needed to use niche tags for differentiation
+- Game descriptions provided rich textual information, that could be useful for content-based models to find similarities between games
 - TF-IDF model performed quite bad, just only using text descriptions for similarity was not enough
 - KNN model performed better, recommending some games that were also recommended by steam themselves
 - The most indicative features we found were tags, genres and categories, numerical features like peak CCU and total reviews were not very useful for similarity.
