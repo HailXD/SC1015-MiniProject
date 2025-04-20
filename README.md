@@ -69,6 +69,7 @@ This is to enhance user experience, help users discover games they might otherwi
 ## Recommendations
 - Go hybrid, rely not just on game descriptions but also on metadata and content features
 - Could use PCA (principal component analysis) to determine the importance of each feature
+- Could experiment with Generative Retrieval, consolidate all information within a corpus into a single model
 - No way to test the model at the moment, could scrape actual recommendations from steam and compare with our model's recommendations to see if they are similar
 
 ## Conclusion
@@ -85,8 +86,10 @@ This is to enhance user experience, help users discover games they might otherwi
 - Combined different types of features (text, categorical, numerical) into a unified representation for machine learning
 
 ## References
-- https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data
-- https://www.quora.com/What-is-high-dimensional-sparse-data
-- https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial
-- https://medium.com/@abhishekjainindore24/tf-idf-in-nlp-term-frequency-inverse-document-frequency-e05b65932f1d
-- https://www.ibm.com/think/topics/knn
+- https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data (Steam Games Dataset)
+- https://www.quora.com/What-is-high-dimensional-sparse-data (High-Dimensional Sparse Data)
+- https://www.datacamp.com/tutorial/one-hot-encoding-python-tutorial (One-Hot Encoding)
+- https://medium.com/@abhishekjainindore24/tf-idf-in-nlp-term-frequency-inverse-document-frequency-e05b65932f1d (TF-IDF)
+- https://www.ibm.com/think/topics/knn (KNN)
+- https://www.ibm.com/think/topics/principal-component-analysis (PCA)
+- https://arxiv.org/pdf/2305.05065 (Generative Retrieval)
