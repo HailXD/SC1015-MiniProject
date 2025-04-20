@@ -73,7 +73,7 @@ This is to enhance user experience, help users discover games they might otherwi
 - No way to test the model at the moment, could scrape actual recommendations from steam and compare with our model's recommendations to see if they are similar
 
 ## Conclusion
-- How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam? Use clustering, either using TF-IDF to group similar games together
+- How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam? Use clustering, either using TF-IDF or KNN to group similar games together
 - Which features or combination of features are most indicative of game similarity? The most indicative features we found were tags, genres and categories, numerical features like peak CCU and total reviews were not very useful for similarity although were still included in the KNN model
 - Which model would be the best for this task? KNN performed better
 - Overall yes, it is possible to recommend games based on existing games using TF-IDF and KNN.
