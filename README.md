@@ -68,10 +68,13 @@ This is to enhance user experience, help users discover games they might otherwi
 
 ## Recommendations
 - Go hybrid, rely not just on game descriptions but also on metadata and content features
-- Could experiment with importance level of each feature, and play with the weights of each feature to see if it improves the recommendation accuracy or use PCA (principal component analysis) to determine the importance of each feature
+- Could use PCA (principal component analysis) to determine the importance of each feature
 - No way to test the model at the moment, could scrape actual recommendations from steam and compare with our model's recommendations to see if they are similar
 
 ## Conclusion
+- How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam? Use clustering, either using TF-IDF to group similar games together
+- Which features or combination of features are most indicative of game similarity? The most indicative features we found were tags, genres and categories, as they are the most descriptive of the game itself. 
+- Which model would be the best for this task? KNN performed better
 - Overall yes, it is possible to recommend games based on existing games using TF-IDF and KNN.
 
 ## Learning Beyond the Course
