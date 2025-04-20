@@ -14,8 +14,8 @@ For detailed walkthrough, please view the source code in order from:
   
 ## Contributors
 
-- @HailXD - EDA, Modeling
-- @rarkrx - Video, Cleaning, EDA
+- Chew Jun Yang (U2323006A) - EDA, Modeling
+- Kong Kai Wang (U2323506H) - Video, Cleaning, EDA
 
 ## Problem Definition
 
