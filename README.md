@@ -1,6 +1,6 @@
 # Steam Recommendation System
 
-![steam](Images/steam.jpg)
+![steam](https://github.com/HailXD/SC1015-MiniProject/blob/main/Images/Steam.jpg)
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on steam games from [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data). 
@@ -29,7 +29,7 @@ For this project, we are trying to build a recommendation system for Steam Games
 
 This is to enhance user experience, help users discover games they might otherwise miss, understand what features are most indicative of game similarity and to create a practical recommendation model with different approaches to evaluate their effectveness.
 
-![prediction](Images/Prediction.png)
+![prediction](https://github.com/HailXD/SC1015-MiniProject/blob/main/Images/Prediction.png)
 
 ### Problem Statement
 - How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam?
