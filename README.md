@@ -55,7 +55,7 @@ This is to enhance user experience, help users discover games they might otherwi
 ## Models Used
 
 1. TF-IDF (Term Frequency-Inverse Document Frequency) + Cosine Similarity
-2. K-Nearest Neighbors (KNN) + Cosine Similarity
+2. K-Nearest Neighbors (KNN)
 
 ## Data-Driven Insights
 - Many games made by indie devs and with low player count
@@ -81,7 +81,7 @@ This is to enhance user experience, help users discover games they might otherwi
 - Applied TF-IDF for meaningful text vectorization
 - Worked with high-dimensional sparse data structures
 - Used Log Transformation to fix skewed data
-- Learn about practical applications of KNN for similarity-based tasks, particularly using cosine similarity
+- Learn about practical applications of KNN for similarity-based tasks
 - Combined different types of features (text, categorical, numerical) into a unified representation for machine learning
 
 ## References
