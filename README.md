@@ -1,5 +1,10 @@
 # Steam Recommendation System
 
+## Contributors
+
+- Chew Jun Yang (U2323006A) - EDA, Modeling
+- Kong Kai Wang (U2323506H) - Video, Cleaning, EDA
+
 ![steam](https://github.com/HailXD/SC1015-MiniProject/blob/main/Images/Steam.jpg)
 ## About
 
@@ -11,11 +16,6 @@ For detailed walkthrough, please view the source code in order from:
 1. [Data Preprocessing & Cleaning](https://github.com/HailXD/SC1015-MiniProject/blob/main/ML_Recommendation.ipynb)
 2. [EDA & Data Visualization](https://github.com/HailXD/SC1015-MiniProject/blob/main/EDA.ipynb)
 3. [Recommendation Models](https://github.com/HailXD/SC1015-MiniProject/blob/main/ML_Recommendation.ipynb)
-  
-## Contributors
-
-- Chew Jun Yang (U2323006A) - EDA, Modeling
-- Kong Kai Wang (U2323506H) - Video, Cleaning, EDA
 
 ## Problem Definition
 
@@ -62,6 +62,7 @@ This is to enhance user experience, help users discover games they might otherwi
 - Metadata like Peak CCU and total reviews were heavily skewed, too many games with no players and reviews
 - Common tags (Like Indie, Singleplayer, adventure,..) were everywhere, so needed to use niche tags for differentiation
 - Game descriptions provided rich textual information, that could be useful for content-based models to find similarities between games
+- Cateorical data like platform supports (windows, mac) and language support (english, chinese) are too dominated by english and windows, making them not useful for differentiating games.
 - TF-IDF model performed quite bad, just only using text descriptions for similarity was not enough
 - KNN model performed better, recommending some games that were also recommended by steam themselves
 - The most indicative features we found were tags, genres and categories, numerical features like peak CCU and total reviews were not very useful for similarity.
