@@ -1,5 +1,6 @@
-# Welcome to movie-analysis repository
+# Steam Recommendation System
 
+![steam](Images/steam.jpg)
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on steam games from [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data). 
@@ -27,6 +28,8 @@ The extensive and growing library of games on Steam makes it difficult for users
 For this project, we are trying to build a recommendation system for Steam Games using the [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data) from Kaggle, to allow users to discover similar games based on the characteristics of games they might already know or like.
 
 This is to enhance user experience, help users discover games they might otherwise miss, understand what features are most indicative of game similarity and to create a practical recommendation model with different approaches to evaluate their effectveness.
+
+![prediction](Images/Prediction.png)
 
 ### Problem Statement
 - How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam?
@@ -63,7 +66,7 @@ This is to enhance user experience, help users discover games they might otherwi
 
 ## Recommendations
 - Go hybrid, rely not just on game descriptions but also on metadata and content features
-- Could experiment with importance level of each feature, and play with the weights of each feature to see if it improves the recommendation accuracy
+- Could experiment with importance level of each feature, and play with the weights of each feature to see if it improves the recommendation accuracy or use PCA (principal component analysis) to determine the importance of each feature
 - No way to test the model at the moment, could scrape actual recommendations from steam and compare with our model's recommendations to see if they are similar
 
 ## Conclusion
