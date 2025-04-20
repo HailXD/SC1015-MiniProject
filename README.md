@@ -33,7 +33,9 @@ This is to enhance user experience, help users discover games they might otherwi
 
 ### Problem Statement
 - How to effectively recommend games to a user based on the characteristics of games they might already know or like, given the massive catalog of games available on Steam?
+- Which features or combination of features are most indicative of game similarity?
 - Which model would be the best for this task?
+
 
 ## Preprocessing & Cleaning
 - Correct broken format
