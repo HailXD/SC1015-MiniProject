@@ -67,7 +67,7 @@ This is to enhance user experience, help users discover games they might otherwi
 - Content features (tags/genres,categories) and metadata (popularity/ratings) don't correlate well with each other, but they can be used together to improve recommendation accuracy in the KNN model
 
 ## Recommendations
-- Go hybrid, rely not just on game descriptions but also on metadata and content features
+- Go hybrid, rely not just on game descriptions but also on metadata and content features for better recommendations
 - Could use PCA (principal component analysis) to determine the importance of each feature
 - Could experiment with Generative Retrieval, consolidate all information within a corpus into a single model
 - No way to test the model at the moment, could scrape actual recommendations from steam and compare with our model's recommendations to see if they are similar
